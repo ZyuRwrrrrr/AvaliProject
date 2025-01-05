@@ -3,10 +3,7 @@ package com.lunkoashtail.avaliproject.item;
 import com.lunkoashtail.avaliproject.AvaliProject;
 import com.lunkoashtail.avaliproject.block.ModBlocks;
 import com.lunkoashtail.avaliproject.entity.ModEntities;
-import com.lunkoashtail.avaliproject.item.custom.AvaliswordItem;
-import com.lunkoashtail.avaliproject.item.custom.FuelItem;
-import com.lunkoashtail.avaliproject.item.custom.ModEffectSwordItem;
-import com.lunkoashtail.avaliproject.item.custom.SimpleDrinkableItem;
+import com.lunkoashtail.avaliproject.item.custom.*;
 import com.lunkoashtail.avaliproject.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffects;
@@ -268,6 +265,72 @@ public class ModItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+
+    public static final DeferredItem<Item> FIRELANCE_HILT = ITEMS.register("firelance_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FIRELANCE_MAIN = ITEMS.register("firelance_main",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FIRELANCE_MUZZLE = ITEMS.register("firelance_muzzle",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FIRELANCE_SCOPE = ITEMS.register("firelance_scope",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MLSERIES_HILT = ITEMS.register("mlseries_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MLSERIES_MUZZLE = ITEMS.register("mlseries_muzzle",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MLSERIES_MAIN = ITEMS.register("mlseries_main",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOVA_HILT = ITEMS.register("nova_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> QRC_HILT = ITEMS.register("qrc_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOVA_MAIN = ITEMS.register("nova_main",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> QRC_MAIN = ITEMS.register("qrc_main",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOVA_SCOPE = ITEMS.register("nova_scope",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOVA_MUZZLE = ITEMS.register("nova_muzzle",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> QRC_MUZZLE = ITEMS.register("qrc_muzzle",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AVALI_DRONE_CORE = ITEMS.register("avali_drone_core",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AVALI_DRONE_ROTORS = ITEMS.register("avali_drone_rotors",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AVALI_DATA_CHIT = ITEMS.register("avali_data_chit",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AVALI_DRONE = ITEMS.register("avali_drone", AvaliDroneItem::new);
+
+    public static final DeferredItem<Item> STORM_CORE = ITEMS.register("storm_core",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORM_MUZZLE = ITEMS.register("storm_muzzle",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORM_HILT = ITEMS.register("storm_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLIZZARD_HILT = ITEMS.register("blizzard_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLIZZARD_CORE = ITEMS.register("blizzard_core",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLIZZARD_MUZZLE = ITEMS.register("blizzard_muzzle",
+            () -> new Item(new Item.Properties()));
+
+
+    public static final DeferredItem<Item> QRC = ITEMS.register("qrc",
+            QrcItem::new);
+    public static final DeferredItem<Item> FIRELANCE = ITEMS.register("firelance",
+            FirelanceItem::new);
+    public static final DeferredItem<Item> MLSERIES = ITEMS.register("mlseries",
+            MlseriesItem::new);
+    public static final DeferredItem<Item> NOVA = ITEMS.register("nova",
+            NovaItem::new);
+    public static final DeferredItem<Item> STORM = ITEMS.register("storm",
+            StormItem::new);
+    public static final DeferredItem<Item> BLIZZARD = ITEMS.register("blizzard",
+            BlizzardItem::new);
+    public static final DeferredItem<Item> AVALI_PROJECTILE_ITEM = ITEMS.register("avali_projectile_item",
+            AvaliProjectileItemItem::new);
+
     public static final DeferredItem<Item> SERGAL_CHEESE = ITEMS.register("sergal_cheese",
             () -> new Item(new Item.Properties().food(ModFoodProperties.SERGAL_CHEESE)));
     public static final DeferredItem<Item> PROTOGEN_RAM = ITEMS.register("protogen_ram",
@@ -381,7 +444,9 @@ public class ModItems {
     public static final DeferredItem<Item> SERGAL_SPAWN_EGG = ITEMS.register("sergal_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.SERGAL, 0xf6d6c9, 0x84121e,
                     new Item.Properties()));
-
+    public static final DeferredItem<Item> CHRGAKBZ_SPAWN_EGG = ITEMS.register("chrgakbz_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.CHRGAKBZ, 0x3a757d, 0x3d1c5e,
+                    new Item.Properties()));
     public static final DeferredItem<Item> CAKLERAH_SPAWN_EGG = ITEMS.register("caklerah_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.CAKLERAH, 0xeae6da, 0xf19751,
                     new Item.Properties()));

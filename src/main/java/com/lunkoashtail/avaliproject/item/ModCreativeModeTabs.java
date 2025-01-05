@@ -91,6 +91,37 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AVALI_PICKAXE);
                         output.accept(ModItems.PIRU_FROND);
                         output.accept(ModItems.AVALI_DANCE_MUSIC_DISC);
+                        output.accept(ModItems.MLSERIES_MAIN);
+                        output.accept(ModItems.MLSERIES_HILT);
+                        output.accept(ModItems.MLSERIES_MUZZLE);
+                        output.accept(ModItems.FIRELANCE_HILT);
+                        output.accept(ModItems.FIRELANCE_MAIN);
+                        output.accept(ModItems.FIRELANCE_MUZZLE);
+                        output.accept(ModItems.FIRELANCE_SCOPE);
+                        output.accept(ModItems.QRC_MUZZLE);
+                        output.accept(ModItems.QRC_MAIN);
+                        output.accept(ModItems.QRC_HILT);
+                        output.accept(ModItems.NOVA_MUZZLE);
+                        output.accept(ModItems.NOVA_MAIN);
+                        output.accept(ModItems.NOVA_HILT);
+                        output.accept(ModItems.NOVA_SCOPE);
+                        output.accept(ModItems.AVALI_DRONE_CORE);
+                        output.accept(ModItems.AVALI_DRONE_ROTORS);
+                        output.accept(ModItems.AVALI_DRONE);
+                        output.accept(ModItems.AVALI_DATA_CHIT);
+                        output.accept(ModItems.STORM_CORE);
+                        output.accept(ModItems.STORM_HILT);
+                        output.accept(ModItems.STORM_MUZZLE);
+                        output.accept(ModItems.BLIZZARD_HILT);
+                        output.accept(ModItems.BLIZZARD_CORE);
+                        output.accept(ModItems.BLIZZARD_MUZZLE);
+
+                        output.accept(ModItems.QRC);
+                        output.accept(ModItems.NOVA);
+                        output.accept(ModItems.MLSERIES);
+                        output.accept(ModItems.FIRELANCE);
+                        output.accept(ModItems.STORM);
+                        output.accept(ModItems.BLIZZARD);
 
                         output.accept(ModBlocks.GROOU_NODULE);
                         output.accept(ModBlocks.KIRI_NODULE);
@@ -102,6 +133,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EEPUOR_SPAWN_EGG);
                         output.accept(ModItems.AVALI_SPAWN_EGG);
                         output.accept(ModItems.CAKLERAH_SPAWN_EGG);
+                        output.accept(ModItems.CHRGAKBZ_SPAWN_EGG);
 
 //                        output.accept(ModBlocks.NANOLOOM.get());
 

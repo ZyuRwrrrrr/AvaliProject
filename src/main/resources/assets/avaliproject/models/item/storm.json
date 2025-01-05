@@ -1,0 +1,6 @@
+{
+  "parent": "avaliproject:displaysettings/blizzard.item",
+  "textures": {
+    "layer0": "avaliproject:item/blizzard"
+  }
+}

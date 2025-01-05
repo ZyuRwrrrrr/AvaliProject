@@ -1,0 +1,6 @@
+{
+  "parent": "avaliproject:displaysettings/mlseries.item",
+  "textures": {
+    "layer0": "avaliproject:item/mlseries"
+  }
+}

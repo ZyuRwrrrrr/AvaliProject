@@ -1,0 +1,6 @@
+{
+  "parent": "avaliproject:displaysettings/firelance.item",
+  "textures": {
+    "layer0": "avaliproject:item/firelance"
+  }
+}

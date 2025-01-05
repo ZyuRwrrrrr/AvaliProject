@@ -1,0 +1,6 @@
+{
+  "parent": "avaliproject:displaysettings/qrc.item",
+  "textures": {
+    "layer0": "avaliproject:item/qrc"
+  }
+}

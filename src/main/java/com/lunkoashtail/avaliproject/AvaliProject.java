@@ -4,6 +4,7 @@ import com.lunkoashtail.avaliproject.block.ModBlocks;
 import com.lunkoashtail.avaliproject.block.entity.ModBlockEntities;
 import com.lunkoashtail.avaliproject.entity.ModEntities;
 import com.lunkoashtail.avaliproject.entity.client.*;
+import com.lunkoashtail.avaliproject.event.ExplosiveProjectileEvent;
 import com.lunkoashtail.avaliproject.item.ModCreativeModeTabs;
 import com.lunkoashtail.avaliproject.item.ModItems;
 import com.lunkoashtail.avaliproject.screen.ModMenuTypes;
@@ -110,6 +111,10 @@ public class AvaliProject {
             EntityRenderers.register(ModEntities.MIZOLE.get(), MizoleRenderer::new);
             EntityRenderers.register(ModEntities.MALE_NEVREAN.get(), MaleNevreanRenderer::new);
             EntityRenderers.register(ModEntities.FEMALE_NEVREAN.get(), FemaleNevreanRenderer::new);
+            EntityRenderers.register(ModEntities.CHRGAKBZ.get(), ChrgakbzRenderer::new);
+            EntityRenderers.register(ModEntities.AVALI_EXPLOSIVE.get(), AvaliExplosiveRenderer::new);
+            EntityRenderers.register(ModEntities.AVALI_PROJECTILE.get(), AvaliProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.AVALI_DRONE.get(), AvaliDroneRenderer::new);
         }
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
@@ -229,6 +234,7 @@ public class AvaliProject {
             event.accept(ModItems.SPORE_SPAWN_EGG);
             event.accept(ModItems.FEMALE_NEVREAN_SPAWN_EGG);
             event.accept(ModItems.MALE_NEVREAN_SPAWN_EGG);
+            event.accept(ModItems.CHRGAKBZ_SPAWN_EGG);
         }
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

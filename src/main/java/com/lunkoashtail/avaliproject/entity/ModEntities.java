@@ -3,9 +3,11 @@ package com.lunkoashtail.avaliproject.entity;
 import com.lunkoashtail.avaliproject.AvaliProject;
 import com.lunkoashtail.avaliproject.entity.custom.*;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -70,6 +72,20 @@ public class ModEntities {
     public static final Supplier<EntityType<FemaleNevreanEntity>> FEMALE_NEVREAN =
             ENTITY_TYPES.register("female_nevrean", () -> EntityType.Builder.of(FemaleNevreanEntity::new, MobCategory.CREATURE)
                     .sized(0.95f, 1.65f).build("female_nevrean"));
+    public static final Supplier<EntityType<ChrgakbzEntity>> CHRGAKBZ =
+            ENTITY_TYPES.register("chrgakbz", () -> EntityType.Builder.of(ChrgakbzEntity::new, MobCategory.CREATURE)
+                    .sized(5f, 2.25f).build("chrgakbz"));
+    public static final Supplier<EntityType<AvaliDroneEntity>> AVALI_DRONE =
+            ENTITY_TYPES.register("avali_drone", () -> EntityType.Builder.of(AvaliDroneEntity::new, MobCategory.CREATURE)
+                    .sized(2f, 2f).build("avali_drone"));
+
+
+    public static final Supplier<EntityType<AvaliExplosiveEntity>> AVALI_EXPLOSIVE =
+            ENTITY_TYPES.register("avali_explosive", () -> EntityType.Builder.<AvaliExplosiveEntity>of(AvaliExplosiveEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).build("avali_explosive"));
+    public static final Supplier<EntityType<AvaliProjectileEntity>> AVALI_PROJECTILE =
+            ENTITY_TYPES.register("avali_projectile", () -> EntityType.Builder.<AvaliProjectileEntity>of(AvaliProjectileEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).build("avali_projectile"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

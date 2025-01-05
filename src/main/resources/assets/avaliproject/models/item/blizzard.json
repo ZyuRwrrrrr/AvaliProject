@@ -1,0 +1,6 @@
+{
+  "parent": "avaliproject:displaysettings/nova.item",
+  "textures": {
+    "layer0": "avaliproject:item/nova"
+  }
+}

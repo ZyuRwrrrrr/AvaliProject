@@ -74,7 +74,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MERP_MUSIC_DISC.get());
         basicItem(ModItems.AVALI_DANCE_MUSIC_DISC.get());
         basicItem(ModItems.CYBERNETIC_HEART_MUSIC_DISC.get());
-
+        basicItem(ModItems.FIRELANCE_HILT.get());
+        basicItem(ModItems.FIRELANCE_MAIN.get());
+        basicItem(ModItems.FIRELANCE_MUZZLE.get());
+        basicItem(ModItems.FIRELANCE_SCOPE.get());
+        basicItem(ModItems.MLSERIES_MAIN.get());
+        basicItem(ModItems.MLSERIES_HILT.get());
+        basicItem(ModItems.MLSERIES_MUZZLE.get());
+        basicItem(ModItems.QRC_HILT.get());
+        basicItem(ModItems.QRC_MAIN.get());
+        basicItem(ModItems.QRC_MUZZLE.get());
+        basicItem(ModItems.NOVA_HILT.get());
+        basicItem(ModItems.NOVA_MAIN.get());
+        basicItem(ModItems.NOVA_SCOPE.get());
+        basicItem(ModItems.NOVA_MUZZLE.get());
+        basicItem(ModItems.AVALI_DRONE_CORE.get());
+        basicItem(ModItems.AVALI_DRONE_ROTORS.get());
+        basicItem(ModItems.AVALI_DRONE.get());
+        basicItem(ModItems.AVALI_DATA_CHIT.get());
+        basicItem(ModItems.STORM_HILT.get());
+        basicItem(ModItems.STORM_MUZZLE.get());
+        basicItem(ModItems.STORM_CORE.get());
+        basicItem(ModItems.BLIZZARD_HILT.get());
+        basicItem(ModItems.BLIZZARD_MUZZLE.get());
+        basicItem(ModItems.BLIZZARD_CORE.get());
 
         //Icons
         basicItem(ModItems.AVALI_ICON.get());
@@ -139,7 +162,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent(ModItems.SPORE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
         withExistingParent(ModItems.FEMALE_NEVREAN_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
         withExistingParent(ModItems.MALE_NEVREAN_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
-
+        withExistingParent(ModItems.CHRGAKBZ_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {

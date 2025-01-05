@@ -1,0 +1,313 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"Sit": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [-17.5, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [0, -1.25442, 0.65301],
+						"easing": "linear"
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [17.5, 0, 0],
+						"easing": "linear"
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"vector": [0, 0, 17.5],
+						"easing": "linear"
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"vector": [-9.50457, -62.08407, 10.72879],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [0, 0.47999, 2.0049],
+						"easing": "linear"
+					}
+				},
+				"antennae": {
+					"rotation": {
+						"vector": [-42.5, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [0, -0.73728, -0.67559],
+						"easing": "linear"
+					}
+				},
+				"leftwing": {
+					"rotation": {
+						"vector": [0, 0, -17.5],
+						"easing": "linear"
+					}
+				},
+				"leftleg": {
+					"rotation": {
+						"vector": [-9.50457, 62.08407, -10.72879],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [0, 0.47999, 2.0049],
+						"easing": "linear"
+					}
+				}
+			}
+		},
+		"Fly": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [15, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [0, -0.09659, 0.02588],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, -0.00341, 0.00412],
+							"easing": "linear"
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-5, 0, 0],
+						"easing": "linear"
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightfan": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 720, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftfan": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, -720, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"vector": [0, -25, 15],
+						"easing": "linear"
+					}
+				},
+				"leftleg": {
+					"rotation": {
+						"vector": [0, 25, -15],
+						"easing": "linear"
+					}
+				},
+				"gun": {
+					"rotation": {
+						"vector": [2.5, 0, 0],
+						"easing": "linear"
+					}
+				},
+				"antennae": {
+					"rotation": {
+						"0.0": {
+							"vector": [-17.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-18.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-17.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"Idle": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [15, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [0, -0.09659, 0.02588],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, -0.00341, 0.00412],
+							"easing": "linear"
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-5, 0, 0],
+						"easing": "linear"
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightfan": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 720, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftfan": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, -720, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"vector": [0, -25, 15],
+						"easing": "linear"
+					}
+				},
+				"leftleg": {
+					"rotation": {
+						"vector": [0, 25, -15],
+						"easing": "linear"
+					}
+				},
+				"gun": {
+					"rotation": {
+						"vector": [2.5, 0, 0],
+						"easing": "linear"
+					}
+				},
+				"antennae": {
+					"rotation": {
+						"0.0": {
+							"vector": [-17.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-18.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-17.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

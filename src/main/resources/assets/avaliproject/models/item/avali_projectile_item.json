@@ -1,0 +1,7 @@
+{
+  "parent": "avaliproject:custom/avali_projectile",
+  "textures": {
+    "0": "avaliproject:block/avali_projectile",
+    "particle": "avaliproject:item/avali_projectile"
+  }
+}

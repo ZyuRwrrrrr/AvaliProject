@@ -1,0 +1,51 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Nova",
+					"pivot": [0, 7, -2],
+					"cubes": [
+						{"origin": [-1.5, 0, 1], "size": [3, 2, 7], "uv": [69, 61]},
+						{"origin": [-1.5, 0, 8], "size": [3, 14, 5], "uv": [0, 60]},
+						{"origin": [-1.5, 7, -30], "size": [3, 7, 38], "uv": [0, 0]},
+						{"origin": [0, 8.5, -35], "size": [0, 5, 5], "uv": [38, 74]},
+						{"origin": [-1.5, 14, -10], "size": [3, 3, 10], "uv": [0, 46]},
+						{"origin": [-2, 18, -8], "size": [4, 4, 6], "uv": [17, 67]},
+						{"origin": [-2, 20, -10], "size": [4, 2, 2], "uv": [71, 56]},
+						{"origin": [-1, 17, -9], "size": [2, 1, 8], "uv": [71, 46]},
+						{"origin": [-2, 10, 1], "size": [4, 5, 7], "uv": [46, 61]},
+						{"origin": [-2, 6, -19], "size": [4, 4, 2], "pivot": [-1, 6, -17], "rotation": [-10, 0, 0], "uv": [49, 74]},
+						{"origin": [-2, 6, -23], "size": [4, 4, 2], "pivot": [-1, 6, -21], "rotation": [-10, 0, 0], "uv": [49, 74]},
+						{"origin": [-2, 6, -27], "size": [4, 4, 2], "pivot": [-1, 6, -25], "rotation": [-10, 0, 0], "uv": [49, 74]},
+						{"origin": [-2, -4, -10], "size": [4, 15, 5], "uv": [27, 46]},
+						{"origin": [-1, 1, -15], "size": [2, 10, 5], "uv": [69, 71]},
+						{"origin": [-2, -3, -5], "size": [4, 6, 1], "uv": [58, 81]},
+						{"origin": [-2.5, -3, -13], "size": [5, 7, 7], "uv": [46, 46]},
+						{"origin": [-1, 0, 1], "size": [2, 7, 2], "pivot": [0, 0, 1], "rotation": [15, 0, 0], "uv": [49, 81]},
+						{"origin": [-1, 4, -2], "size": [2, 3, 3], "uv": [83, 0]},
+						{"origin": [-1, 4, -5], "size": [2, 0, 3], "pivot": [0, 4, -2], "rotation": [26.5, 0, 0], "uv": [83, 7]},
+						{"origin": [-1, -1, 10], "size": [2, 2, 2], "pivot": [0, 0, 11], "rotation": [-45, 0, 0], "uv": [5, 3]}
+					]
+				},
+				{
+					"name": "trigger",
+					"parent": "Nova",
+					"pivot": [0, 7, -2],
+					"cubes": [
+						{"origin": [0, 4, -4], "size": [0, 3, 2], "uv": [17, 60]}
+					]
+				}
+			]
+		}
+	]
+}

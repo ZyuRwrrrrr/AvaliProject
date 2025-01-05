@@ -39,6 +39,8 @@ public class ModEventBusEvents {
         event.put(ModEntities.MIZOLE.get(), MizoleEntity.createAttributes().build());
         event.put(ModEntities.FEMALE_NEVREAN.get(), FemaleNevreanEntity.createAttributes().build());
         event.put(ModEntities.MALE_NEVREAN.get(), MaleNevreanEntity.createAttributes().build());
+        event.put(ModEntities.CHRGAKBZ.get(), ChrgakbzEntity.createAttributes().build());
+        event.put(ModEntities.AVALI_DRONE.get(), AvaliDroneEntity.createAttributes().build());
     }
 
     @SubscribeEvent
@@ -83,5 +85,7 @@ public class ModEventBusEvents {
                 Mob::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
         event.register(ModEntities.MIZOLE.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
                 Mob::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(ModEntities.CHRGAKBZ.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                Animal::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
     }
 }
