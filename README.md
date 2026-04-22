@@ -2,7 +2,7 @@
 
 The Avali Project is a mod that is designed to add content from multiple species. From avali to sergals and not forgetting protogens, this early mod aim to grasp everything that has been done around those species, their universe and implement them in game. More races could be added but this is for now an early build.
 
-![Showcase video](https://www.youtube.com/watch?v=jtFi8f-pAtA)
+[![Showcase video](https://img.youtube.com/vi/jtFi8f-pAtA/0.jpg)](https://www.youtube.com/watch?v=jtFi8f-pAtA)
 
 # Content Added
 
