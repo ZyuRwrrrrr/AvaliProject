@@ -1,25 +1,38 @@
+# The Avali Project
 
-Installation information
-=======
+The Avali Project is a mod that is designed to add content from multiple species. From avali to sergals and not forgetting protogens, this early mod aim to grasp everything that has been done around those species, their universe and implement them in game. More races could be added but this is for now an early build.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+![Showcase video](https://www.youtube.com/watch?v=jtFi8f-pAtA)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+# Content Added
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+- Food Items
+- Ores
+- Crops
+- Tools
+- Mobs
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+# Planned content
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+- Dimensions (Avalon, Tal, Esmire IV..)
+- Machines
+- Companion
+- Trading
+- Vehicles
+
+# Contributions
+
+<details>
+<summary>Models</summary>
+
+- Loppan45
+- Entity0504
+- Djevra
+
+</details>
+
+## Information
+
+*I'm still learning and trying to work on making this mod working, I have a lot of work ahead and all of this was made within a week. It may not be the best but at least I get to progress and make it somewhat stable. Anyone would be free to come and support since the project will be listed on github for those who has better knowledge than me!*
+
+Discord: <https://discord.gg/BcKmBkQeEw>
